@@ -43,6 +43,8 @@ namespace Myleasing.Web.Data.Entities
         [Display(Name = "Direccion")]
         public string Address { get; set; }
 
+
+        [Display(Name = "Nombres y Apellido")]
         public string FullName => $"{FirstName} {LastName}";
 
         public string FullNameWithDocument => $"{FirstName} {LastName} - {Document}";
