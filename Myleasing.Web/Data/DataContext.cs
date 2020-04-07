@@ -18,9 +18,9 @@ namespace Myleasing.Web.Data
              
         public DbSet<Contract> Contracts { get; set; }
              
-        public DbSet<Lessee> lessees { get; set; }
+        public DbSet<Lessee> Lessees { get; set; }
 
-        public DbSet<Property> Propeties { get; set; }
+        public DbSet<Property> Properties { get; set; }
 
         public DbSet<PropertyImage> PropertyImages { get; set; }
 

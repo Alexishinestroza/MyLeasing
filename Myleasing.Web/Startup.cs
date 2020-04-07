@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Myleasing.Web.Data;
+using MyLeasing.Web.Data;
 
 namespace Myleasing.Web
 {
@@ -39,7 +40,7 @@ namespace Myleasing.Web
             });
 
 
-
+            services.AddTransient<SeedDb>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
