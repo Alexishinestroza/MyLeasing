@@ -2,7 +2,7 @@
 using Myleasing.Web.Data.Entities;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-namespace MyLeasing.Web.Data.Entities
+namespace Myleasing.Web.Data.Entities
 
 {
     public class Property

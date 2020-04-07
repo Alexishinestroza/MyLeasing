@@ -1,4 +1,4 @@
-﻿using MyLeasing.Web.Data.Entities;
+﻿using Myleasing.Web.Data.Entities;
 using System.ComponentModel.DataAnnotations;
 
 namespace Myleasing.Web.Data.Entities

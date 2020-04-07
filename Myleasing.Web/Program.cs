@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Myleasing.Web;
-using MyLeasing.Web.Data;
+using Myleasing.Web.Data;
 
-namespace MyLeasing.Web
+namespace Myleasing.Web
 {
     public class Program
     {
