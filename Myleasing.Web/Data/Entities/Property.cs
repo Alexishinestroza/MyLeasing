@@ -50,6 +50,8 @@ namespace Myleasing.Web.Data.Entities
 
         public ICollection<PropertyImage> PropertyImages { get; set; }
 
+        public ICollection<Contract> Contracts { get; set; }
+
 
 
     }
