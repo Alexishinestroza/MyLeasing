@@ -149,9 +149,11 @@ else
                         @Html.DisplayFor(modelItem => item.Contracts.Count)
                     </td>
                     <td>
-                        <a asp-action="EditProperty" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
-                        <a asp-action="DetailsProperty" asp-route-id="@item.Id" class="btn btn-info">Details</a>
-                        <a asp-action="DeleteProperty" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                        <div class="btn-group">
+                            <a asp-action="EditProperty" asp-route-id="@item.Id" class="btn btn-warning btn-block">Edit</a>
+                            <a asp-action="DetailsProperty" asp-route-id="@item.Id" class="btn btn-info btn-block">Details</a>
+                            <a asp-action="DeleteProperty" asp-route-id="@item.Id" class="btn btn-danger btn-block">Delete</a>
+                        </div>
                     </td>
                 </tr>
             }
